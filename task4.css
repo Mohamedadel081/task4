@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+    
+    background-color: #fff;
+    width: 80%;
+    margin: auto
+}
+
+.social-icons a{
+    margin-left: 15px; ;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 40x;
+  text-decoration: none;
+}
+
+.menue {
+  display: flex;
+  gap: 13px;
+  list-style: none;
+}
+
+.menue a {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight:600;
+  font-size: 18px;
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.menue li {
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 16px;
+  color: #FFC107;
+  background-color: #1A202C;
+  padding: 17px;
+  border-radius: 3px 3px 0 0;
+}
+
+.phone-number {
+  border: solid #FFC107;
+  padding: 10px 20px 10px 20px;
+  font-size: 24px;
+  color: #4586D6;
+  font-weight: bolder;
+}
+
+.section1 {
+  height: 21cm;
+  background-image: url("hero-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-card {
+  max-width: 650px;
+  background: #ffffff;
+  padding: 45px 50px 60px;
+  overflow: hidden;
+  position: absolute;
+  top: 23%;
+  left: 9%;
+}
+
+/* .right-button{
+
+float: right;
+  color: rgba(255, 255, 255, 0.5) ;
+  width: 25px;
+  height: 25px;
+  font-size: 30px;
+}
+
+.left-button{
+  float: left;
+  } */
+
+
+
+.main-card h2 {
+  
+  font-size: 40px;
+  margin-bottom: 0.67cm;
+}
+
+.main-card p {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-bottom: 0.67cm;
+}
+
+.main-card button {
+  color: #142336;
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 16px;
+  background: #FAD110;
+  padding: 14.74px 15.41px;
+  border: none;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.small-cards {
+  float: left;
+  background-color: white;
+  border: 1px solid #e1e1e1;
+  width: 11em;
+  height: 5em;
+  margin-left: 39px;
+  text-align: center;
+  padding: 54px
+}
+
+.container {
+  position: absolute;
+  left: 16.08%;
+  bottom: -10.72%;
+}
+
+.small-cards h4{
+
+margin-top: 30px;
+
+}
+
+
+
+
+
